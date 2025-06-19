@@ -1,0 +1,31 @@
+site_name: LolChampionsAPI Docs
+site_description: Documentation for LolChampionsAPI, a RESTful API.
+site_author: Riotgames Team
+
+theme:
+  name: material
+  language: es
+  
+
+nav:
+  - Inicio: index.md
+  - Guia de uso: 
+      - Campeones: guia/champs.md
+      - Uso: guia/usage.md
+  - Recursos:
+      - Preguntas frecuentas: recursos/preguntas.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
